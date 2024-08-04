@@ -21,25 +21,16 @@ let addressesapi = [
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
 	'104.18.49.76：443#优选',
-'104.18.60.133：443#优选',
-'104.19.74.172：443#优选',
-'104.19.120.84：443#优选',
-'104.19.95.139：443#优选',
-'104.18.55.147：443#优选',
-'172.64.203.22：443#优选',
-'104.19.119.220：443#优选',
-'172.64.199.176：443#优选',
-'104.19.69.208：443#优选',
 ];
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/Love1028/yxip/main/yxip.txt', //可参考内容格式 自行搭建。
+	'https://cf-workers-text2kv-c99.pages.dev/iptest.txt?token=siyong1028', //可参考内容格式 自行搭建。
 ];
 
 let DLS = 5;//速度下限
 let addressescsv = [
-	'https://raw.githubusercontent.com/Love1028/yxip/main/31898-1722500414.csv', //iptest测速结果文件。
+	'https://cf-workers-text2kv-c99.pages.dev/ip.csv?token=siyong1028', //iptest测速结果文件。
 ];
 
 let subconverter = "subapi-loadbalancing.pages.dev"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
