@@ -30,7 +30,7 @@ let addressesnotlsapi = [
 	'https://raw.githubusercontent.com/Love1028/yxip/main/yxip.txt', //可参考内容格式 自行搭建。
 ];
 
-let DLS = 8;//速度下限
+let DLS = 5;//速度下限
 let addressescsv = [
 	'https://raw.githubusercontent.com/Love1028/yxip/main/31898-1722500414.csv', //iptest测速结果文件。
 ];
